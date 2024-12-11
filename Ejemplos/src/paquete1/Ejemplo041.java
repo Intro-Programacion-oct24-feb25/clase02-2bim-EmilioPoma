@@ -30,6 +30,7 @@ public class Ejemplo041 {
                     + "con valor %d\n", 
                     acumulador,i, arreglo1[i]);
         }
+        
         acumulador = String.format("%sLa suma total es: %d\n", 
                 acumulador, suma);
         System.out.printf("%s\n", 

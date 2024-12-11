@@ -24,18 +24,22 @@ public class Ejemplo02 {
         System.out.println(arreglo1[2]);
         System.out.println(arreglo1[3]);
         System.out.println(arreglo1[4]);
+        // Al no asignar valores se le asignan automaticamente 0
         
         // arreglo de tipo double
         double[] arreglo2 = new double[5];
         System.out.println(arreglo2[0]);
+        // Al no asignar valores se le asignan automaticamente 0.00
         
         // arreglo de tipo String
         String[] arreglo4 = new String[5];
         System.out.println(arreglo4[0]);
+        // Al no asignar valores se le asignan automaticamente null
         
         // arreglo de tipo boleano
         boolean[] arreglo5 = new boolean[5];
         System.out.println(arreglo5[0]);
+        // Al no asignar valores se le asignan automaticamente false
     }
 
 }
